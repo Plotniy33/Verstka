@@ -1,0 +1,27 @@
+/*
+ >= 1200
+992 - 1199
+768 - 991
+576 - 768
+460 - 576
+414 - 460
+375 - 414
+320 - 375
+*/
+@media screen and (max-width: 1200px) {
+  .cart {
+    flex-wrap: nowrap;
+  }
+  .events_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .events_menu form {
+    padding: 5px;
+  }
+  img {
+    object-fit: cover;
+  }
+}
